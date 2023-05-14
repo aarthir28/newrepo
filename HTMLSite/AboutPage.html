@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="../CSSSite/index.css">
+        <link rel="stylesheet" href="../CSSSite/nav.css">
+        <link rel="stylesheet" href="../CSSSite/button.css">
+        <link rel="stylesheet" href="../CSSSite/accordion.css">
+    </head>
+    <body>
+        
+        <nav> 
+            
+            
+            <div class="row-3">
+                <ul>
+                    <li><a class="active" href="./HomePage.html">Home</a></li>
+                    <li><a href="./HobbyPage.html">Hobby</a></li>
+                    <li><a href="./HomeTownPage.html">Home Town</a></li>
+                    <li><a href="./AboutPage.html">About</a></li>
+                  </ul>
+            </div>
+            <div class="row-2 align-right">
+                <a href="https://twitter.com"> <img src="../CSSSite/images/twit.jpg" width="50" height="50"/> </a>
+            </div>
+        </nav>
+        <section class="container">
+            <div class="div1">
+                <h2 class="m0 align-center">About Page</h2>
+            </div>
+            <br/><br/>
+            <div class="align-left">
+                <div id="My story" data-expanded="+"  class="accordion-content">
+                    <h4 onclick="onClickAccordion('My story')">My story</h4>
+                    <p>Name: Aarthi Reddy<br>
+                       DOB: 20 june 2001<br>
+                       contact Number: xxxxxxxxxx
+                
+                    </p>
+                    
+                </div>
+               <div id="educational qualifications" data-expanded="+" class="accordion-content">
+                    <h4 onclick="onClickAccordion('educational qualifications')">Educational Qualifications</h4>
+                    <p>
+                        Masters Degree: OCU<br>
+                        Bachelors:JNTUH
+                    
+                    </p>
+                </div>
+                <div id="programming skills" data-expanded="+" class="accordion-content">
+                    <h4 onclick="onClickAccordion('programming skills')">Programming Skills</h4>
+                    <p>
+                        HTML,CSS,Javascript<br>
+                        MySQL,Angular,PHP
+                    </p>
+                </div>
+
+            </div>
+            
+            <div class="div1">
+            
+            </div>
+            <br/><br/>
+        
+        </section>
+        <script src="../JSSite/accordion.js"></script>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="../CSSSite/index.css">
+        <link rel="stylesheet" href="../CSSSite/nav.css">
+        <link rel="stylesheet" href="../CSSSite/button.css">
+    </head>
+    <body>
+        
+        <nav> 
+            
+            
+            <div class="row-1">
+                <ul>
+                    <li><a class="active" href="./HomePage.html">Home</a></li>
+                    <li><a href="./HobbyPage.html">Hobby</a></li>
+                    <li><a href="./HomeTownPage.html">Home Town</a></li>
+                    <li><a href="./AboutPage.html">About</a></li>
+                  </ul>
+            </div>
+        </nav>
+    
+       <section class="container">
+            <div class="div1">
+                <h2 class="m0 align-center">My home Page</h2>
+            </div>
+            <br/><br/>
+            <div class="align-center">
+               <div id="section1"  class="section-content display-block">
+                <div class="align-center"> 
+                <div >
+                        <h4>Hello, my name is</h4>
+                        <h1>Aarthi Reddy</h1>
+                        <h3>I'm a student at oklahoma christian university</h3>
+                        <div class="form">
+                            <form onsubmit="return validateNumber()">
+                                <label for="id">Id:</label>
+                                <input type="text" id="id" name="id" required>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>  
+                </div>
+                <div id="section2" class="section-content">
+                   <h3> If you want to know more about me just click on about button it will redirect to the about page.</h3><br><br>
+                   <img src="../CSSSite/images/about.jpg" width="400" height="200">
+                </div>
+                <div id="section3" class="section-content">
+                    <h2> MORE...</h2>
+                    <h3> My hobbies- click on hobbies button</h3>
+                    <img src="../CSSSite/images/hobbies.jpg" width="100" height="70">
+                    <h3> Hometown- click on hometown button</h3>
+                    <img src="../CSSSite/images/hometown.jpg" width="100" height="70">
+                </div>
+                <br/>
+                <br/>
+               <div class="row-1">
+                    <button class="btn" onclick="onClickSecbtn('section1')">Page 1</button>
+                    <button class="btn" onclick="onClickSecbtn('section2')">Page 2</button>
+                    <button class="btn" onclick="onClickSecbtn('section3')">Page 3</button>
+                </div>
+            </div>
+        </section>
+        <script src="../JSSite/home.js"></script>
+    </body>
+</html>
